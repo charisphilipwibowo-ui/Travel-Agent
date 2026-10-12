@@ -25,16 +25,15 @@ Tidak diperlukan framework, package manager, atau proses build. Google Fonts dan
 ├── index.html      # Beranda Home yang ditampilkan pada alamat utama
 ├── README.md       # Dokumentasi repositori
 └── uts1/
-    ├── index.html  # Beranda
-    ├── about.html  # Halaman About
+    ├── about.html   # Halaman About
     ├── contact.html # Halaman Contact dan formulir
-    ├── style.css   # Gaya bersama dan layout responsif
-    └── script.js   # Validasi dan interaksi formulir
+    ├── style.css    # Gaya bersama dan layout responsif
+    └── script.js    # Validasi dan interaksi formulir
 ```
 
 ## Menjalankan Secara Lokal
 
-Buka `index.html` di browser, atau jalankan `uts1/index.html` langsung. Halaman About dan Contact dapat dibuka melalui menu navigasi.
+Buka `index.html` di browser. Halaman About dan Contact dapat dibuka melalui menu navigasi.
 
 ## Formulir Contact
 
@@ -47,4 +46,3 @@ Form menggunakan validasi bawaan HTML untuk nama, email, dan pesan. JavaScript m
 GitHub Pages dipublikasikan dari branch `main` dan folder `/(root)`. Beranda Home berada langsung di root repo; CSS dan JavaScript serta halaman About dan Contact tetap berada di folder `uts1`.
 
 - [Buka website Travel Agent](https://charisphilipwibowo-ui.github.io/Travel-Agent/)
-- Beranda alternatif di folder proyek: [uts1/index.html](uts1/index.html)
