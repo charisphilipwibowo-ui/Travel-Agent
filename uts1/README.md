@@ -48,15 +48,9 @@ Form Contact menggunakan validasi bawaan HTML untuk nama, format email, dan pesa
 
 Jika repositori GitHub berisi folder `uts1` di root repositori:
 
-1. Push berkas proyek ke branch `main`.
+1. Push berkas proyek ke branch `master`.
 2. Buka **Settings → Pages** di repositori.
-3. Pada **Build and deployment**, pilih **Deploy from a branch**, branch `main`, dan folder `/(root)`.
+3. Pada **Build and deployment**, pilih **Deploy from a branch**, branch `master`, dan folder `/uts1`.
 4. Setelah deployment selesai, halaman proyek tersedia di:
 
-   `https://<username>.github.io/<nama-repositori>/uts1/`
-
-Jika isi folder `uts1` dijadikan root repositori tersendiri, URL-nya menjadi:
-
-`https://<username>.github.io/<nama-repositori>/`
-
-Ganti `<username>` dan `<nama-repositori>` dengan nilai sebenarnya setelah repositori dibuat dan dipublikasikan.
+   `https://github.com/charisphilipwibowo-ui/Travel-Agent/tree/master`
