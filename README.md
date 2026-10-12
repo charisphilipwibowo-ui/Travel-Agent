@@ -4,7 +4,7 @@ Website statis untuk memperkenalkan destinasi wisata dan membantu pengunjung men
 
 ## Halaman
 
-- [Home](uts1/index.html): pengantar layanan, daftar destinasi, serta gambar dengan judul dan deskripsi.
+- [Home](index.html): pengantar layanan, daftar destinasi, serta gambar dengan judul dan deskripsi.
 - [About](uts1/about.html): pendekatan Travel Agent dalam membantu pengunjung menemukan dan merencanakan perjalanan.
 - [Contact](uts1/contact.html): formulir pertanyaan tentang perjalanan.
 
@@ -22,7 +22,7 @@ Tidak diperlukan framework, package manager, atau proses build. Google Fonts dan
 
 ```text
 .
-├── index.html      # Mengarahkan alamat utama ke website di uts1/
+├── index.html      # Beranda Home yang ditampilkan pada alamat utama
 ├── README.md       # Dokumentasi repositori
 └── uts1/
     ├── index.html  # Beranda
@@ -44,7 +44,7 @@ Form menggunakan validasi bawaan HTML untuk nama, email, dan pesan. JavaScript m
 
 ## GitHub Pages
 
-GitHub Pages dipublikasikan dari branch `main` dan folder `/(root)`. Berkas `index.html` di root mengarahkan alamat utama ke website.
+GitHub Pages dipublikasikan dari branch `main` dan folder `/(root)`. Beranda Home berada langsung di root repo; CSS dan JavaScript serta halaman About dan Contact tetap berada di folder `uts1`.
 
 - [Buka website Travel Agent](https://charisphilipwibowo-ui.github.io/Travel-Agent/)
-- Beranda langsung: [uts1/index.html](uts1/index.html)
+- Beranda alternatif di folder proyek: [uts1/index.html](uts1/index.html)
