@@ -50,7 +50,7 @@ Jika repositori GitHub berisi folder `uts1` di root repositori:
 
 1. Push berkas proyek ke branch `master`.
 2. Buka **Settings → Pages** di repositori.
-3. Pada **Build and deployment**, pilih **Deploy from a branch**, branch `master`, dan folder `/uts1`.
+3. Pada **Build and deployment**, pilih **Deploy from a branch**, branch `master`, dan folder `/(root)`.
 4. Setelah deployment selesai, halaman proyek tersedia di:
 
    `https://github.com/charisphilipwibowo-ui/Travel-Agent/tree/master`
