@@ -46,11 +46,11 @@ Form Contact menggunakan validasi bawaan HTML untuk nama, format email, dan pesa
 
 ## Publikasi dengan GitHub Pages
 
-Jika repositori GitHub berisi folder `uts1` di root repositori:
+Repositori menggunakan folder `uts1` untuk menyimpan berkas proyek. Berkas `index.html` kecil di root repositori mengarahkan alamat utama GitHub Pages ke website tersebut.
 
 1. Push berkas proyek ke branch `master`.
 2. Buka **Settings → Pages** di repositori.
 3. Pada **Build and deployment**, pilih **Deploy from a branch**, branch `master`, dan folder `/(root)`.
-4. Setelah deployment selesai, halaman proyek tersedia di:
+4. Setelah deployment selesai, website tersedia di:
 
-   `https://github.com/charisphilipwibowo-ui/Travel-Agent/tree/master`
+   `https://charisphilipwibowo-ui.github.io/Travel-Agent/`
